@@ -1,0 +1,36 @@
+{
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0",
+      "id": "tabitmyway@cszb.net"
+    }
+  },
+
+  "background": {
+      "scripts": ["tabitmyway.js"]
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "author": "Christian Schulte zu Berge",
+  "description": "Improves the user experience when handling tabs.",
+  "homepage_url": "https://www.cszb.net",
+  "manifest_version": 2,
+  "name": "Tab It My Way!",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "version": "1.0",
+
+  "icons": {
+      "48": "logo-48.png"
+    },
+
+  "developer": {
+    "name": "Christian Schulte zu Berge",
+    "url": "https://www.cszb.net"
+  }
+}
